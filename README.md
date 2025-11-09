@@ -35,7 +35,7 @@ Each app can be used independently or integrated into a multi-round experimental
 
 | Version | Release Date | Status | Notes |
 |----------|---------------|--------|-------|
-| **v1.0.0 – Initial Release** | November 9, 2025 | ✅ Stable | First public release of DASW oTree Snippets. Includes 6 experiment categories, complete backend logic, and final payment system. |
+| **v1.0.0 – Initial Release** | Planned | 🛠️ In Development | First public release of DASW oTree Snippets. Includes 6 experiment categories, complete backend logic, and final payment system. |
 
 > **Current Version:** `v1.0.0`  
 > Uses **Semantic Versioning** conventions:
