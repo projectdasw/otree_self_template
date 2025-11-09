@@ -47,7 +47,7 @@ Each app can be used independently or integrated into a multi-round experimental
 
 ## 🧱 Project Structure
 
-**Full Changelog**: https://github.com/projectdasw/otree_self_template/commits/otree_self_snippets
+**Full Changelog**: https://github.com/projectdasw/dasw_otree_snippets/commits/main/
 
 ## ⚙️ Key Features
 
