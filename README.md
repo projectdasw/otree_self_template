@@ -36,6 +36,6 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/username/oTree-Self-Template.git
+git clone https://github.com/projectdasw/otree_self_template.git
 cd oTree-Self-Template
 
