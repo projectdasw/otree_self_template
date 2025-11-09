@@ -5,8 +5,8 @@
 [![License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10+-yellow.svg?style=flat-square)](https://www.python.org/)
 
-> **oTree Self Template** is a modular framework containing a collection of ready-to-use experimental applications built on [oTree](https://www.otree.org/).  
-> oTree Self Template is a comprehensive collection of ready-to-use experimental applications built on the oTree framework.
+> **oTree Self Template** is a modular framework containing a collection of ready-to-use experimental applications built on [oTree](https://www.otree.org/).
+oTree Self Template is a comprehensive collection of ready-to-use experimental applications built on the oTree framework.
 It serves as a modular foundation for academic research, corporate behavioral testing, and other experimental studies — enabling rapid design, development, and deployment of diverse behavioral, economic, and decision-making experiments.
 
 This template is ideal for researchers, developers, and practitioners who need a flexible yet robust oTree environment that can be easily customized for new projects.
