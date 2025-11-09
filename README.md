@@ -84,5 +84,3 @@ Each app can be used independently or integrated into a multi-round experimental
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/projectdasw/dasw_otree_snippets.git
-cd oTree-Self-Template
-
