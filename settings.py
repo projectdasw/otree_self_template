@@ -2,9 +2,45 @@ from os import environ
 
 SESSION_CONFIGS = [
     # dict(
-    #     name='public_goods',
-    #     app_sequence=['public_goods'],
-    #     num_demo_participants=3,
+    #     name='Donation Rank',
+    #     app_sequence=['donation_with_rank'],
+    #     num_demo_participants=1,
+    # ),
+    # dict(
+    #     name='Investment Apps',
+    #     app_sequence=['invest_app'],
+    #     num_demo_participants=1,
+    # ),
+    # dict(
+    #     name='Shop Apps',
+    #     app_sequence=['shop_apps'],
+    #     num_demo_participants=1,
+    # ),
+    # dict(
+    #     name='Survey & Demographics',
+    #     app_sequence=['survey_demographics'],
+    #     num_demo_participants=1,
+    # ),
+    dict(
+        display_name='RET - Decoding Task',
+        name='decoding',
+        app_sequence=['decoding'],
+        num_demo_participants=1,
+    ),
+    # dict(
+    #     name='Real Effort Task - Transcription',
+    #     app_sequence=['transcription'],
+    #     num_demo_participants=1,
+    # ),
+    # dict(
+    #     name='Real Effort Task - Algebaric',
+    #     app_sequence=['realeffort_algebaric'],
+    #     num_demo_participants=1,
+    # ),
+    # dict(
+    #     name='Lucky Game - Slot Machine',
+    #     app_sequence=['slot_machine'],
+    #     num_demo_participants=1,
     # ),
 ]
 
@@ -19,7 +55,7 @@ SESSION_CONFIG_DEFAULTS = dict(
 
 PARTICIPANT_FIELDS = []
 SESSION_FIELDS = []
-
+DEBUG = True
 # ISO-639 code
 # for example: de, fr, ja, ko, zh-hans
 LANGUAGE_CODE = 'en'
@@ -32,6 +68,8 @@ ADMIN_USERNAME = 'admin'
 # for security, best to set admin password in an environment variable
 ADMIN_PASSWORD = environ.get('OTREE_ADMIN_PASSWORD')
 
-DEMO_PAGE_INTRO_HTML = """ """
+DEMO_PAGE_INTRO_HTML = """
+    oTree Snippet - DASW Project
+"""
 
 SECRET_KEY = '1193263471981'

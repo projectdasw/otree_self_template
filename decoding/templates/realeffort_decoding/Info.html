@@ -1,0 +1,374 @@
+{% extends 'global/Page.html' %}
+{% load otree static %}
+
+{% block title %}
+    <title>Real Effort Task - Decoding</title>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="m-0">about Real Effort - Decoding</h5>
+            </div>
+            <div class="card-body p-0">
+                <ul class="list-group">
+                    <li class="list-group-item border-0 border-bottom">
+                        <h3>
+                            <i class="fa-solid fa-book text-primary me-1"></i>
+                            <span>Overview</span>
+                        </h3>
+                        <p>
+                            <strong>Decoding Task</strong> is an interactive experimental application developed using
+                            the <strong>oTree framework</strong>, designed to measure participants’ information
+                            processing speed, accuracy, and decision-making performance under time constraints.
+                        </p>
+                        <p>
+                            In this task, participants are presented with randomized patterns — such as letters,
+                            numbers, or symbols — and must identify or decode them correctly before the timer runs out.
+                            The task aims to evaluate <strong>cognitive processing efficiency</strong>,
+                            <strong>attention to detail</strong>, and <strong>behavioral consistency</strong> across
+                            multiple rounds.
+                        </p>
+                        <p class="m-0">This application can be used for:</p>
+                        <ul>
+                            <li>
+                                <strong>Academic research</strong> in behavioral or experimental economics, psychology,
+                                or decision science.
+                            </li>
+                            <li>
+                                <strong>Corporate behavioral testing</strong> such as assessing employee cognitive
+                                agility or focus.
+                            </li>
+                            <li>
+                                <strong>Customized large-scale experiments</strong> including hybrid online–lab setups.
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item border-0 border-bottom">
+                        <h3>
+                            <i class="fa-solid fa-code-branch text-primary me-1"></i>
+                            <span>
+                                Version Control - <span class="fs-6 badge text-bg-danger">MAJOR.MINOR.PATCH</span>
+                            </span>
+                        </h3>
+                        <table class="table m-0">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Version</th>
+                                    <th scope="col">Release Date</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        v1.1.1 <span class="badge text-bg-secondary">patch</span>
+                                    </th>
+                                    <td>
+                                        <span class="badge text-bg-warning">Pending</span>
+                                    </td>
+                                    <td>
+                                        <span class="badge text-bg-secondary">
+                                            <i class="fa-solid fa-vest-patches me-1"></i>
+                                            <span>Patch</span>
+                                        </span>
+                                    </td>
+                                    <td>Minor bug fixes and improved timing precision across browsers.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        v1.1.0 <span class="badge text-bg-primary">minor</span>
+                                    </th>
+                                    <td>
+                                        <span class="badge text-bg-info">Planned</span>
+                                    </td>
+                                    <td>
+                                        <span class="badge text-bg-warning">
+                                            <i class="fa-solid fa-list-check me-1"></i>
+                                            <span>In-Progress</span>
+                                        </span>
+                                    </td>
+                                    <td>UI/UX overhaul, multi-language support, and adaptive difficulty scaling.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        v1.0.0 <span class="badge text-bg-success">major</span>
+                                    </th>
+                                    <td>
+                                        <span class="badge text-bg-success">
+                                            2025, November 09
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="badge text-bg-success">
+                                            <i class="fa-solid fa-check me-1"></i>
+                                            <span>Stable</span>
+                                        </span>
+                                    </td>
+                                    <td>
+                                        Initial release — includes full decoding gameplay, performance tracking, and
+                                        data logging system.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </li>
+                    <li class="list-group-item border-0 border-bottom">
+                        <h3>
+                            <i class="fa-solid fa-note-sticky text-primary me-1"></i>
+                            <span>Patch Notes</span>
+                        </h3>
+                        <ul class="list-group">
+                            <li class="list-group-item border-0">
+                                <div class="d-flex flex-row justify-content-between align-items-center
+                                    border-0 border-bottom mb-2">
+                                    <h4 class="m-0">v.1.1.1</h4>
+                                    <span class="badge text-bg-secondary">Maintenance Patch</span>
+                                </div>
+                                <ul>
+                                    <li>
+                                        Synchronize timer consistency across devices and browsers.
+                                    </li>
+                                    <li>
+                                        Optimize rendering speed on low-latency networks.
+                                    </li>
+                                    <li>
+                                        Minor bug fixes in session variable synchronization and round transitions.
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item border-0">
+                                <div class="d-flex flex-row justify-content-between align-items-center
+                                    border-0 border-bottom mb-2">
+                                    <h4 class="m-0">v.1.1.0</h4>
+                                    <span class="badge text-bg-primary">Planned Update</span>
+                                </div>
+                                <ul>
+                                    <li>
+                                        Introduce difficulty levels (Easy, Medium, Hard) with adjustable decoding
+                                        complexity.
+                                    </li>
+                                    <li>
+                                        Add live feedback (green/red highlight for correct/incorrect answers).
+                                    </li>
+                                    <li>
+                                        Include visual progress bar and adaptive difficulty scaling.
+                                    </li>
+                                    <li>
+                                        Support export of summarized results in CSV and Excel format.
+                                    </li>
+                                    <li>
+                                        Integrate with <span class="badge text-bg-secondary">payment_page</span> app
+                                        for incentive-based payoff generation.
+                                    </li>
+                                    <li>
+                                        Provide multilingual text support (English, Bahasa Indonesia, etc.).
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item border-0">
+                                <div class="d-flex flex-row justify-content-between align-items-center
+                                    border-0 border-bottom mb-2">
+                                    <h4 class="m-0">v.1.0.0</h4>
+                                    <span class="badge text-bg-success">Initial Release</span>
+                                </div>
+                                <ul>
+                                    <li>
+                                        Implemented core decoding interface with randomized symbol sets.
+                                    </li>
+                                    <li>
+                                        Added countdown timer with auto-submit when time expires.
+                                    </li>
+                                    <li>
+                                        Recorded participant accuracy, response time, and number of attempts in the
+                                        <span class="badge text-bg-secondary">Player</span> model.
+                                    </li>
+                                    <li>
+                                        Introduced randomization per round using session-level seed
+                                        (<span class="badge text-bg-secondary">session.vars</span>).
+                                    </li>
+                                    <li>
+                                        Provided a result page summarizing individual performance metrics (accuracy,
+                                        speed, and score).
+                                    </li>
+                                    <li>
+                                        Added admin report for researchers to monitor progress and export data.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item border-0 border-bottom">
+                        <h3>
+                            <i class="fa-solid fa-star text-primary me-1"></i>
+                            <span>Key Features</span>
+                        </h3>
+                        <table class="table">
+                            <thead>
+                                <th>Category</th>
+                                <th>Feature</th>
+                                <th>Description</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th rowspan="3">Gameplay</th>
+                                    <td>Randomized Decoding Rounds</td>
+                                    <td>Each round generates a unique sequence of letters or symbols to decode.</td>
+                                </tr>
+                                <tr>
+                                    <td>Time-limited Response</td>
+                                    <td>
+                                        Each round includes a countdown timer; answers are auto-submitted upon timeout.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Adaptive Difficulty</td>
+                                    <td>Optionally adjusts difficulty based on prior performance accuracy.</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="3">Data Logging</th>
+                                    <td>Accuracy Tracking</td>
+                                    <td>Records correct, incorrect, and skipped responses per player.</td>
+                                </tr>
+                                <tr>
+                                    <td>Reaction Time</td>
+                                    <td>Captures the exact time taken for each response.</td>
+                                </tr>
+                                <tr>
+                                    <td>Round Summary</td>
+                                    <td>Compiles per-round and cumulative statistics for analysis.</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2">Interface</th>
+                                    <td>Responsive UI</td>
+                                    <td>Optimized for desktop, laptop, and tablet interfaces.</td>
+                                </tr>
+                                <tr>
+                                    <td>Minimal Design</td>
+                                    <td>Clean, distraction-free layout suitable for cognitive testing.</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2">Integration</th>
+                                    <td>oTree Session Linkage</td>
+                                    <td>Can be connected with other apps in the same oTree project.</td>
+                                </tr>
+                                <tr>
+                                    <td>Data Export</td>
+                                    <td>
+                                        Allows exporting participant data to
+                                        <span class="badge text-bg-secondary">.csv</span> and
+                                        <span class="badge text-bg-secondary">.xlsx</span> formats.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2">Customization</th>
+                                    <td>Adjustable Timer</td>
+                                    <td>Researchers can set the time limit per round or overall session.</td>
+                                </tr>
+                                <tr>
+                                    <td>Variable Symbols</td>
+                                    <td>
+                                        Supports text, number, or icon-based decoding patterns.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </li>
+                    <li class="list-group-item border-0 border-bottom">
+                        <h3>
+                            <i class="fa-solid fa-gears text-primary me-1"></i>
+                            <span>Technical Implementation</span>
+                        </h3>
+                        <ul class="list-group">
+                            <li class="list-group-item border-0 mb-3">
+                                <div class="d-flex flex-row border-0 border-bottom mb-2">
+                                    <h4 class="m-0">Framework & Language</h4>
+                                </div>
+                                <table class="table m-0">
+                                    <thead>
+                                        <th>Framework</th>
+                                        <th>Language</th>
+                                        <th>Front End</th>
+                                        <th>Database</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>oTree 5.x or newer</td>
+                                            <td>Python 3.9 or newer</td>
+                                            <td>HTML5, Bootstrap (CSS & JS), Fontawesome, SweetAlert2</td>
+                                            <td>SQLite (default) or PostgreSQL</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li class="list-group-item border-0 mb-3">
+                                <div class="d-flex flex-row border-0 border-bottom mb-2">
+                                    <h4 class="m-0">Core Components</h4>
+                                </div>
+                                <table class="table m-0">
+                                    <thead>
+                                        <th>Component</th>
+                                        <th>Description</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><span class="badge text-bg-secondary">models.py</span></td>
+                                            <td>
+                                                Defines <span class="badge text-bg-secondary">Player</span>,
+                                                <span class="badge text-bg-secondary">Group</span>, and
+                                                <span class="badge text-bg-secondary">Subsession</span> with decoding
+                                                performance variables.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="badge text-bg-secondary">pages.py</span></td>
+                                            <td>
+                                                Handles page flow, timing, and live updates between client and server.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="badge text-bg-secondary">templates/</span></td>
+                                            <td>
+                                                Contains task interfaces and result pages (HTML + JS).
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="badge text-bg-secondary">static/</span></td>
+                                            <td>
+                                                Stores optional JS/CSS assets for animations or feedback visuals.
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li class="list-group-item border-0 mb-3">
+                                <div class="d-flex flex-row border-0 border-bottom mb-2">
+                                    <h4 class="m-0">Data Flow</h4>
+                                </div>
+                                <ol class="list-group list-group-numbered">
+                                    <li class="list-group-item border-0 p-0">Participant loads a decoding round.</li>
+                                    <li class="list-group-item border-0 p-0">
+                                        oTree backend generates a randomized pattern (letters/symbols).
+                                    </li>
+                                    <li class="list-group-item border-0 p-0">
+                                        Player responds before the timer runs out.
+                                    </li>
+                                    <li class="list-group-item border-0 p-0">
+                                        Response time and accuracy are logged into the
+                                        <span class="badge text-bg-secondary">Player</span> model.
+                                    </li>
+                                    <li class="list-group-item border-0 p-0">
+                                        After all rounds, results are displayed and stored for export.
+                                    </li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-footer"></div>
+        </div>
+    </div>
+{% endblock %}
