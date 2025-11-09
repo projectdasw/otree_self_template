@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10+-yellow.svg?style=flat-square)](https://www.python.org/)
 
-> **DASW otree Snippets** is a modular framework containing a comprehensive collection of ready-to-use experimental applications built on [oTree](https://www.otree.org/).
+> **DASW oTree Snippets** is a modular framework containing a comprehensive collection of ready-to-use experimental applications built on [oTree](https://www.otree.org/).
 
 It serves as a modular foundation for academic research, corporate behavioral testing, and other experimental studies — enabling rapid design, development, and deployment of diverse behavioral, economic, and decision-making experiments.
 
