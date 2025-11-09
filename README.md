@@ -1,15 +1,15 @@
-# oTree Self Template
+# DASW oTree Snippets
 ---
 [![Version](https://img.shields.io/badge/version-v1.0.0-blue.svg?style=flat-square)](https://github.com/username/oTree-Self-Template)
 [![oTree](https://img.shields.io/badge/built%20with-oTree%205.x-green.svg?style=flat-square)](https://www.otree.org/)
 [![License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10+-yellow.svg?style=flat-square)](https://www.python.org/)
 
-> **oTree Self Template** is a modular framework containing a comprehensive collection of ready-to-use experimental applications built on [oTree](https://www.otree.org/).
+> **DASW otree Snippets** is a modular framework containing a comprehensive collection of ready-to-use experimental applications built on [oTree](https://www.otree.org/).
 
 It serves as a modular foundation for academic research, corporate behavioral testing, and other experimental studies — enabling rapid design, development, and deployment of diverse behavioral, economic, and decision-making experiments.
 
-This template is ideal for researchers, developers, and practitioners who need a flexible yet robust oTree environment that can be easily customized for new projects.
+This snippet is ideal for researchers, developers, and practitioners who need a flexible yet robust oTree environment that can be easily customized for new projects.
 
 ---
 
@@ -35,7 +35,7 @@ Each app can be used independently or integrated into a multi-round experimental
 
 | Version | Release Date | Status | Notes |
 |----------|---------------|--------|-------|
-| **v1.0.0 – Initial Release** | November 9, 2025 | ✅ Stable | First public release of oTree Self Template. Includes 6 experiment categories, complete backend logic, and final payment system. |
+| **v1.0.0 – Initial Release** | November 9, 2025 | ✅ Stable | First public release of DASW oTree Snippets. Includes 6 experiment categories, complete backend logic, and final payment system. |
 
 > **Current Version:** `v1.0.0`  
 > Uses **Semantic Versioning** conventions:
@@ -83,6 +83,6 @@ Each app can be used independently or integrated into a multi-round experimental
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/projectdasw/otree_self_template.git
+git clone https://github.com/projectdasw/dasw_otree_snippets.git
 cd oTree-Self-Template
 
