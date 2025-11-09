@@ -1,6 +1,50 @@
 # oTree Self Template
+---
+[![Version](https://img.shields.io/badge/version-v1.0.0-blue.svg?style=flat-square)](https://github.com/username/oTree-Self-Template)
+[![oTree](https://img.shields.io/badge/built%20with-oTree%205.x-green.svg?style=flat-square)](https://www.otree.org/)
+[![License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10+-yellow.svg?style=flat-square)](https://www.python.org/)
+
+> **oTree Self Template** is a modular framework containing a collection of ready-to-use experimental applications built on [oTree](https://www.otree.org/).  
+> It is designed as a **personal experimental foundation**, allowing fast development and deployment of behavioral, economic, and decision-making studies.
 
 ---
+
+## 📦 Overview
+
+This project provides a **comprehensive collection of reusable oTree apps**, including:
+
+- 🧩 **Donation with Rank** – donation experiment with participant ranking  
+- 💹 **Investment Apps** – investment tasks with high/low risk options and endowment rules  
+- 🛍️ **Shop Apps** – simulated market shopping and consumption behavior  
+- 📝 **Survey & Demographics** – participant background and demographic data  
+- ⚙️ **Real Effort Tasks (RET):**
+  - Decoding Task (symbol translation)
+  - Transcription Task (typing accuracy)
+  - Algebraic Task (math/algebra problems)
+  - Slot Machine Task (luck-based RET using probability logic)
+
+Each app can be used independently or integrated into a multi-round experimental design with automated data flow and final payment calculation.
+
+---
+
+## 🚀 Version History
+
+| Version | Release Date | Status | Notes |
+|----------|---------------|--------|-------|
+| **v1.0.0 – Initial Release** | November 9, 2025 | ✅ Stable | First public release of oTree Self Template. Includes 6 experiment categories, complete backend logic, and final payment system. |
+
+> **Current Version:** `v1.0.0`  
+> Uses **Semantic Versioning** conventions:
+> - **MAJOR** – Breaking changes  
+> - **MINOR** – Backward-compatible new features  
+> - **PATCH** – Bug fixes or small improvements
+
+---
+
+## 🧱 Project Structure
+
+**Full Changelog**: https://github.com/projectdasw/otree_self_template/commits/otree_self_snippets
 
 ## ⚙️ Key Features
 
